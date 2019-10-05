@@ -33,4 +33,4 @@ process.env.SEED_TOKEN = process.env.SEED_TOKEN || 'este-es-el-seed-desarrollo';
 
 // Google cliente ID
 
-process.env.CLIENTE_ID = process.env.CLIENTE_ID || '609331389430-oleqvcgis02du1l7ggc88bjogk74lpnf.apps.googleusercontent.com'
+process.env.CLIENTE_ID = process.env.CLIENTE_ID || '609331389430-jf3ih7cfeg790a4sq1l3cs9fl2i36oij.apps.googleusercontent.com'
