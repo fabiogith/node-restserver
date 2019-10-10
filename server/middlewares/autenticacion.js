@@ -26,7 +26,7 @@ let verificarAdmin_Role = (req, res, next) => {
 
     let usuario = req.usuario;
 
-    if (usuario == 'ADMIN_ROLE') {
+    if (usuario.role === 'ADMIN_ROLE') {
         next();
     } else {
         return res.json({
