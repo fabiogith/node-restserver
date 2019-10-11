@@ -18,7 +18,7 @@ app.use(require('./routes/index'))
 mongoose.connect(process.env.URLDB, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true }, (err, res) => {
     if (err) throw new err;
 
-    console.log('Base de datos onLine');
+    console.log('Base de datos ONLINE');
 });
 
-app.listen(process.env.PORT, () => { console.log('Escuchando el puesrto: ', process.env.PORT); })
+app.listen(process.env.PORT, () => { console.log('Escuchando el puerto: ', process.env.PORT); })
